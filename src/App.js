@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navber from "./components/Navber/Navber.js";
+import Home from "./components/Pages/Home/Home.js";
+import TopicSeeMore from "./components/Pages/TopicSeeMore/firststtopic";
+import DemmyTopic from "./components/Pages/TopicSeeMore/demmyTxt";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer/Footer.js";
+import About from "./components/Pages/About/About.js";
+
+// import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navber />
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/About" exact element={<About />} />
+        {/* ---------topics--------- */}
+        <Route path="/science-facts" exact element={<TopicSeeMore />} />
+        <Route path="/demmy-text" exact element={<DemmyTopic />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
