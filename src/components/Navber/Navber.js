@@ -12,9 +12,9 @@ const Navber = () => {
     <div className="navberdiv">
       <Navbar expand="lg" className="navberr">
         <Container>
-          <Navbar.Brand href="/">
+          <NavLink to="/">
             <img alt="#" src={Logo} style={{ height: "50px", width: "50px" }} />
-          </Navbar.Brand>
+          </NavLink>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
