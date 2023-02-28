@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/science_facts/static/css/main.af00761a.css",
+    "main.js": "/science_facts/static/js/main.4ae7d05e.js",
+    "static/js/787.cda612ba.chunk.js": "/science_facts/static/js/787.cda612ba.chunk.js",
+    "static/media/banner.png": "/science_facts/static/media/banner.dc07c0454c3e764d4ea4.png",
+    "static/media/topic1.png": "/science_facts/static/media/topic1.b81e4f7788f3666ddbd3.png",
+    "static/media/nabila.jpeg": "/science_facts/static/media/nabila.8dd0aab45e98806d5d59.jpeg",
+    "static/media/logo.webp": "/science_facts/static/media/logo.345cfb7caa0f4542230a.webp",
+    "index.html": "/science_facts/index.html",
+    "main.af00761a.css.map": "/science_facts/static/css/main.af00761a.css.map",
+    "main.4ae7d05e.js.map": "/science_facts/static/js/main.4ae7d05e.js.map",
+    "787.cda612ba.chunk.js.map": "/science_facts/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af00761a.css",
+    "static/js/main.4ae7d05e.js"
+  ]
+}
