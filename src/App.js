@@ -11,14 +11,15 @@ import About from "./components/Pages/About/About.js";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/science_facts">
+      {/* basename changed */}
       <Navber />
       <Routes>
-        <Route path="/" exact element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/About" exact element={<About />} />
         {/* ---------topics--------- */}
-        <Route path="/science-facts" exact element={<TopicSeeMore />} />
-        <Route path="/demmy-text" exact element={<DemmyTopic />} />
+        <Route path="/sciFact" exact element={<TopicSeeMore />} />
+        <Route path="/dummyText" exact element={<DemmyTopic />} />
       </Routes>
       <Footer />
     </Router>

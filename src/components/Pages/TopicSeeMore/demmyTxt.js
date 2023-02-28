@@ -6,7 +6,7 @@ const demmyTxt = () => {
   return (
     <Container>
       <h2>WATER</h2>
-      <h4> - Dammy Text</h4>
+      <h4> - Dummy Text</h4>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever

@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import "./Home.css";
 import BannerImg from "../../../img/banner.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -84,9 +85,10 @@ function Home() {
                     As a gas, oxygen is odourless and colourless. In its liquid
                     and solid forms, however, it looks pale blue.
                   </Card.Text>
-                  <Card.Link className="cardLink" href="/science-facts">
+                  {/* Card.Link */}
+                  <Link className="cardLink" to="/sciFact">
                     SEE MORE
-                  </Card.Link>
+                  </Link>
                 </Card.Body>
               </Card>
               {/* --- */}
@@ -104,9 +106,9 @@ function Home() {
                     type specimen book. It has survived not only five centuries,
                     but also t
                   </Card.Text>
-                  <Card.Link className="cardLink" href="/demmy-text">
+                  <Link className="cardLink" to="/dummyText">
                     SEE MORE
-                  </Card.Link>
+                  </Link>
                 </Card.Body>
               </Card>
               <Card className="card">
@@ -123,9 +125,9 @@ function Home() {
                     type specimen book. It has survived not only five centuries,
                     but also t
                   </Card.Text>
-                  <Card.Link className="cardLink" href="/demmy-text">
+                  <Link className="cardLink" to="/dummyText">
                     SEE MORE
-                  </Card.Link>
+                  </Link>
                 </Card.Body>
               </Card>
               <Card className="card">
@@ -142,9 +144,9 @@ function Home() {
                     type specimen book. It has survived not only five centuries,
                     but also t
                   </Card.Text>
-                  <Card.Link className="cardLink" href="/demmy-text">
+                  <Link className="cardLink" to="/dummyText">
                     SEE MORE
-                  </Card.Link>
+                  </Link>
                 </Card.Body>
               </Card>
               <Card className="card">
@@ -160,9 +162,9 @@ function Home() {
                     printer took a galley of type and scrambled it to make a
                     type specimen book. It has survived not only five centuries,
                   </Card.Text>
-                  <Card.Link className="cardLink" href="/demmy-text">
+                  <Link className="cardLink" to="/dummyText">
                     SEE MORE
-                  </Card.Link>
+                  </Link>
                 </Card.Body>
               </Card>
               <Card className="card">
@@ -179,9 +181,9 @@ function Home() {
                     type specimen book. It has survived not only five centuries,
                     but also t
                   </Card.Text>
-                  <Card.Link className="cardLink" href="/demmy-text">
+                  <Link className="cardLink" to="/dummyText">
                     SEE MORE
-                  </Card.Link>
+                  </Link>
                 </Card.Body>
               </Card>
             </div>
